@@ -5,5 +5,4 @@ const cliente = {
     telefone: ['133565','343545655'],
 }
 
-console.log(cliente.telefone[0])
-console.log(cliente.telefone[1])
+console.log(cliente.endereco)
