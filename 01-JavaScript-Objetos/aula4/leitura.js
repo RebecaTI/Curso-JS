@@ -15,4 +15,6 @@ const objetoClient = JSON.parse(clienteEmString)
 
 console.log(objetoClient)
 
-//transformar em string JSNON.stringigy()
+//Ler um arquivo .json.
+//Transformá-lo em uma string para podermos salvá-lo, transmiti-lo ou usá-lo em alguma outra operação que é comumente realizada com strings;
+//Por fim, transformamos essa string de volta em um objeto para podermos alterar as propriedades e realizar operações comuns do JavaScript.
