@@ -22,3 +22,6 @@ for (let chave in cliente){
 }
 
 //in- essa palavra vai fazer que a gente pegue cada uma das chaves no objeto cliente
+
+//O for...in permite iterar sobre as propriedades de um objeto. No caso desse loop, temos a flexibilidade de percorrer o objeto e executar uma série de comparações, uma delas é usar o typeof e verificar o tipo da propriedade.
+
