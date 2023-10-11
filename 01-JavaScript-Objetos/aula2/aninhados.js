@@ -5,11 +5,13 @@ const cliente = {
     telefone: ['133565','343545655'],
 }
 
-cliente.endereco = {
+cliente.endereco = [
+    {
     rua: 'R. Joseph Climber',
     numero: 1337,
     apartamento: true,
     complemento: 'ap 934',
-}
+    }
+]
 
 console.log(cliente)
