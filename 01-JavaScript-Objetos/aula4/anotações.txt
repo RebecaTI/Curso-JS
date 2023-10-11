@@ -1,0 +1,9 @@
+JSON    Notação de objeto Java-Script
+Java
+Script
+Object
+Notation
+
+*Funções não são permitidas
+*Comentários não são permitidos
+*Suporta apenas tipos primitivos (string, number, boolean, null);
