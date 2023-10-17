@@ -1,0 +1,24 @@
+const salaJS = [7, 8, 8, 7, 10, 6.5, 4, 10, 7];
+const salaJava = [6, 5, 8, 9, 5, 6];
+const salaPython = [7, 3.5, 8, 9.5];
+
+function calculaMedia(notasDaSala) {
+  const somaDasNotas =  notasDaSala.reduce((accumulator, nota) => {
+    return accumulator + 1;
+  }, 0)
+  console.log(somaDasNotas);
+}
+
+calculaMedia(salaJS);
+
+Explicação
+O método .reduce() funciona assim: ele percorre cada elemento do array e aplica a função que você passou como argumento (a função callback). Essa função recebe dois parâmetros principais: o acumulador (accumulator) e o elemento atual do array (nota, no seu caso).
+
+O acumulador é como uma "memória" que guarda o resultado das operações feitas a cada passagem pelo array. O valor inicial desse acumulador é definido pelo segundo parâmetro que você passa para o método .reduce(). No seu caso, você passou 0 como valor inicial.
+
+Agora, vamos ao seu código. Quando você faz "return accumulator + 1", você está dizendo para o método .reduce() somar 1 ao acumulador a cada passagem pelo array. Como o array salaJS tem 9 elementos, o resultado final será 9, pois você somou 1 ao acumulador 9 vezes.
+
+Quando você remove o 0 (segundo parâmetro do .reduce()), o JavaScript automaticamente usa o primeiro elemento do array como valor inicial do acumulador. Então, na primeira passagem, ele já soma 1 ao primeiro elemento do array (que é 7), resultando em 8. Depois disso, ele soma 1 a cada passagem, totalizando 15 ao final (8 iniciais + 1 para cada um dos 7 elementos restantes do array).
+
+Espero que isso tenha esclarecido suas dúvidas sobre o funcionamento do método .reduce() e o papel do acumulador e do segundo parâmetro. Se você ainda tiver dúvidas, não hesite em perguntar!
+
