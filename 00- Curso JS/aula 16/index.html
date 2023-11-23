@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body>
+    <script>
+        let seuNumero = Number(prompt("Digite seu numero"))
+        console.log(seuNumero)
+        document.body.innerHTML += `Raiz quadrada: <strong>${seuNumero ** 0.5}</strong> </br></br>`
+        document.body.innerHTML += `${seuNumero} é inteiro: <strong>${Number.isInteger(seuNumero)}</strong></br></br>`
+        document.body.innerHTML += `É NaN: <strong>${Number.isNaN(seuNumero)}</strong></br></br>`
+        document.body.innerHTML += `Arredondando para baixo: <strong>${Math.floor(seuNumero)}</strong></br></br>`
+        document.body.innerHTML += `Arredondando para cima: <strong>${Math.ceil(seuNumero)}</strong></br></br>`
+        document.body.innerHTML += `Com duas casas decimais: <strong>${seuNumero.toFixed(2)}</strong></br></br>`
+    </script>
+    
+</body>
+</html>

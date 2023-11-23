@@ -1,0 +1,74 @@
+let umaString = 'Um texto
+
+console.log(umaString[4])   //Para ver um caracter q está em uma posição especifica de um indice. o resultado é 't', que é o unico elemento do indice 4
+
+console.log(umaString.charAt(4))    //Retorna o caracter especifico a partir de uma string]
+
+console.log(umaString.concat('em um lindo dia'))   ou  
+console.log(umaString + ' em um lindo dia')     //Não usado muito em string o metodo concat serve para concatenar strings, ou seja, juntaroutra string
+console.log(`${umaString} em um lindo dia`)     //Esse é o metodo mais usado, o templateString
+
+console.log(umaString.indexOf('texto'))   //Para saber qual indice começa uma palavra ou caracter
+
+console.log(umaString.lastIndexOf('m', 3))    //Para encontrar o indice de um caracter de trás pra frent
+
+console.log(umaString.match(/[a-z]/g))      //Uma expressão regular, para encontrar todas as letras minusculas
+
+console.log(umaString.search(/x/))     //Ele retorna um indice da letra q eu pedir
+
+console.log(umaString.replace('Um', 'Outra'))     //Se eu quero substituir a palavra 'um' para 'outra' 
+
+console.log(umaString.slice(2, 5))  //retorna uma copia de parte de um array a partir de um subarray criado entre as posições inicio e fim. O resultado será 'texto';
+
+console.log(UmaString.substring(umaString.length - 5))   /retorna a parte da string entre os indices inicial e final, ou até o final da string.;
+
+console.log(umaString.split(-3))   //O metodo split() divide uma string em uma lista ordenada de substrings, coloca essas substrings em um array e retorna o array. O resultado será 'nda';
+
+
+.toString() serve para definir um dado para uma string;
+
+.toString(2) Para pegar um numero como binario;
+
+.toFixed(2)  permite formatar um número com uma quantidade específica de casas decimais. 
+
+Number.isInteger(numero1) Retorna verdadeiro se o valor é um inteiro de um dado do tipo Number;
+
+Number.isNaN(valorTemporario) Retorna true ou false a um dado q é um NotANumber;
+
+parceFloat(numero1.toFixed(2));
+
+Math.floor(numero1) Esta arredondando o valor para baixo. Ou seja se o valor de numero1 for 2.9, o resultado será 2;
+
+Math.ceil(numero1) Esta arredondando o valor para cima. Ou seja se o valor de numero1 for 2.1, o resultado será 3;
+
+Math.round(numero1) Esta passando o valor pro mais proximo do numero. Ou seja se o valor do numero1 for 2.34533 o resultado final será 2. Se o valor de numero1 for 2.654 o resultado final será 3;
+
+Math.max(1,2,678,-1545) Esse metodo vai separar o maior valor de uma sequencia de numeros e retornará o maior valor ou seja, 678
+
+Math.min(1,2,678,-1545) Esse metodo vai separar o menor valor de uma sequencia de numeros e retornaráo menor valor ou seja, -1545
+
+Math.random() Ele irá gerar um número aleatorio com varias casas decimais que são inferiores a 1. Por exemplo: 0.1 , 0.54554, -50
+
+Math.random() * (maximo - minimo) - minimo  Se maximo = 10 e minimo = 5 entao ira retornar o valor de 5-10
+
+Math.pow(2, 10) ou (2 ** 10) retorna a base elevada ao expoente power, ou seja, baseexpoente
+
+(9 ** (1/2)) ou (9 ** 0.5) Para pegar a raiz quadrada de 9
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+.push('Elemento desejado') adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array.
+
+.unshift('Elemento', 'desejado') Adiciona um elemento ou mais ao começo de um array
+
+.pop() Elimina o ultimo elemento de um array
+
+const removido = alunos.pop()  Eliminando elemento no final do array e salvando dentro de uma constante o elemento removido
+
+.shift() Elimina o primeiro elemento de um array
+
+delete (Exemplo: delete alunos[1])  Elimite um item do array deixando aquele index vazio
+
+
+
+
