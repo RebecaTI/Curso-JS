@@ -69,6 +69,18 @@ const removido = alunos.pop()  Eliminando elemento no final do array e salvando 
 
 delete (Exemplo: delete alunos[1])  Elimite um item do array deixando aquele index vazio
 
+.preventDefault()  Evitar ações padrão em eventos. Através de exemplos práticos podemos observar sua utilidade em diferentes situações, desde o redirecionamento de links até o controle de envio de formulários
+
+.value retorna um array cujos elementos são os valores das propriedades enumeradas encontradas no objeto. A ordem das propriedades é a mesma que a dada pelo laço sobre os valores da propriedade do objeto manualmente.
 
 
+console.log(0 || false || null || 'Luiz' || true) //Exibiu 'Luiz'. O || precisa de uma expressão verdadeira pra retornar o VALOR verdadeiro. Para o JS uma string é uma expr3essão verdadeira. resultado: 'Luiz'
+console.log(0 || false || null || true || 'Luiz') //Nesse caso ele retorna : true. Então o || retorna o primeiro valor verdadeiro? 
 
+console.log('luiz' && 'Maria');  // retornou Maria //Avaliação ce curto circuito, o intuito disso não é especificamente retornar um valor, mas avliar se um valor retorna 'verdadeiro' ou 'falso'. Por questao de performance quando vc usar o && o JavaScript quer encontrar o valor 'false' para terminar a expressão, só que ele faz isso retornando um valor falso , ele te retorna o último valor encontrado, no caso true.  Se foc true && false, ele iria parar no valor falso consequentemente te retornando o valor falso. Avaliação com todos os valores verdadeiros, o último valor é retornado.                  Avaliação com qualquer valor falso (em qualquer posição) o primeiro valor falsop encontrado é retornado.
+
+if //Pode ser usado sozinho
+
+else if // Não pode ser executado sozinho, pode ter vários else if na checagem.
+
+else //Só posso ter um else na checagem
