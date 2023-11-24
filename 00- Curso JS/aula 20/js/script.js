@@ -25,12 +25,10 @@ function meuEscopo() {
     }
 
     form.addEventListener('submit', recebeEventoForm);
-    
-
-    //Essa é uma das formas para 
-    // form.onsubmit = function (evento) {
-    //     evento.preventDefault()  //Fala pro navegador pra prevenir oq ia acontecer no navegador
-    //     console.log('Foi enviado!')
-    // };
 }
 meuEscopo()
+//Essa é uma das formas para 
+// form.onsubmit = function (evento) {
+//     evento.preventDefault()  //Fala pro navegador pra prevenir oq ia acontecer no navegador
+//     console.log('Foi enviado!')
+// };
