@@ -1,3 +1,4 @@
+
 function meuEscopo() {
     const form = document.querySelector('.form');
     const resultado = document.querySelector('#resultado')
@@ -7,8 +8,8 @@ function meuEscopo() {
     function recebeEventoForm(evento) {
         evento.preventDefault();
     
-        let peso = form.querySelector('#peso');
-        let altura = form.querySelector('#altura');
+        let peso = Number(form.querySelector('#peso'));
+        let altura = Number(form.querySelector('#altura'));
         
         imcResultados.push ({
             peso: peso.value,

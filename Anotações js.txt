@@ -84,3 +84,5 @@ if //Pode ser usado sozinho
 else if // Não pode ser executado sozinho, pode ter vários else if na checagem.
 
 else //Só posso ter um else na checagem
+
+.appenfChild()  //Insere um novo nó na estrutura do DOM de um documento.
