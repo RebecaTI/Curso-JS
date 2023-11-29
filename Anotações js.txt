@@ -86,3 +86,9 @@ else if // Não pode ser executado sozinho, pode ter vários else if na checagem
 else //Só posso ter um else na checagem
 
 .appenfChild()  //Insere um novo nó na estrutura do DOM de um documento.
+
+
+new  //Sempre q usar esse nome quer dizer uma função construtora. Por exemplro new Date(), lembre-se de semre usar a proxima letra d new MAIUSCULA
+
+new Date()  //Ao nao colocar parametros retorna uma objeto data com a data e hora atuais.
+new Date('')  //do tipo string que representa uma data. A string devera estar um formato reconhecido pelo metodo; Ex: const data = new Date('2019-') 
