@@ -94,3 +94,6 @@ new Date()  //Ao nao colocar parametros retorna uma objeto data com a data e hor
 new Date('')  //do tipo string que representa uma data. A string devera estar um formato reconhecido pelo metodo; Ex: const data = new Date('2019-') 
 
 A maior diferenla entre var e let está no Escopo. let permite que você declare variáveis limitando seu escopo no bloco, instrução, ou em uma expressão na qual ela é usada. Isso é inverso da keyword var (en-US), que define uma variável globalmente ou no escopo inteiro de uma função, independentemente do escopo de bloco.
+//////////////////////////////////////
+
+const h1 = ontainer.querySelector('h1'); h1.style.backgroundColor = 'red';   Estudando sobre o DOM. 

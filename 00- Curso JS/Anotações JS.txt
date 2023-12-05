@@ -1,0 +1,40 @@
+.querySelectorAll('')
+#############################################
+dferença entre WHILE, DO WHILE 
+Ambos vão executar enquanto uma expressão logica retornar verdadeiro, e ambos são usados em situações indefinidas. Quando eu não souber a quantidade de vezes que eu preciso iterar o bloco de comando .
+WHILE -- a primeira coisa q eu faço é o teste logico
+DO WHILE--- a primeira coisa q eu faço é a execução dos comandos. Em resumo ele atira primeiro e pergunta depois kkkk
+#############################################
+FOR, FOR IN, FOR OF
+
+FOR IN --- criar uma variavel que vai receber os elementos retornados da coleção q eu quero trabalhar. Coleção que vai iterar
+
+FOR OF ----Itera os elementos direto da coleção. Ele vai dentro do elemento da coleção q ele esta iterando
+#####################################################
+THROW() ------ throw() a declaração lança uma exceção definida pelo usuario. A execução da função atual vai parar (as instruções após o throw não serão executadas), e o controle será passado para o primeiro bloco catch na pilha de chamadas. Se nenhum bloco catch existe entre as funções "chamadoras", o programa vai terminar.
+
+try {
+//     //É executada quando não há erros
+// } catch (e) {
+//     //É executada quando há erros
+// } finally {
+//     // Sempre
+// }
+
+##############################################################
+
+function retornaHora(data) {
+    if (data && !(data instanceof Date)){  //Se a data foi enviada e não for uma instancia de Date. Eu lanço o erro. isso ! significa = dferente de
+        throw new TypeError('Esperando instância de Date')
+    }
+
+    if (!data) {
+        data = new Date();
+    }
+    return data.toLocaleTimeString('pt-BR', {
+
+    })
+}
+const hora = retornaHora()
+console.log(hora)
+#############################################################
