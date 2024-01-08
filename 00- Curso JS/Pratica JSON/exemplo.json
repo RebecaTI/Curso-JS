@@ -1,0 +1,20 @@
+ require('cross-fetch')
+ 
+ [
+    {
+        "nome": "Luiz", 
+        "lastName": "Miranda", 
+        "age": 22,
+        "adresses": [
+            {
+                "line1": "av. Brasil",
+                "line2": "av. Amapa"
+            }
+        ]
+    }
+ ]
+
+
+ const
+ fetch(Link de site)
+ 

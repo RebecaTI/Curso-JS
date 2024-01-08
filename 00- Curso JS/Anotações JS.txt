@@ -37,4 +37,8 @@ function retornaHora(data) {
 }
 const hora = retornaHora()
 console.log(hora)
+
 #############################################################
+
+setInterval()  ---- Vai configurar um intervalo de tempo praq alguma função seja executada em algum momento
+

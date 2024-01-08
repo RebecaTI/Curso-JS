@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,300;1,400;1,900&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(196, 204, 248);
+    --secondary-color: rgb(234, 236, 250);
+    --secondary-color-darker: rgb(200, 203, 219);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.1em;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+form input,
+form label, 
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 1em;
+    height: 30px;
+    padding: 0 20x;
+}
+
+form input:focus {
+    outline: 1px solid var(--secondary-color);
+}
+
+form button {
+    border: none;
+    background: var(--secondary-color);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--secondary-color-darker);
+
+}
+
+/* ATIVIDADE */
+
+.tabela-imc-resultado{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imc-resultado{
+    font-weight:700;
+}
+
+.paragrafo-resultado, .bad {
+    background: rgb(125, 214, 125) ;
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(255, 150, 150);
+}
+
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #9e9e9e;
+}
+
+.btn-eq {
+    background: royalblue;
+}
+
+
