@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide List Items</title>
+    <style>
+        ul li{
+            cursor:pointer;
+            margin-bottom: 5px;
+            padding: 5px;
+            border: 1pc solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        //make a list
+        const ul = document.createElement('ul');
+        document.body.appendChild(ul);
+
+        const li1 = document.createElement('li');
+        const li2 = document.createElement('li');
+        ul.appendChild(li1);
+        ul.appendChild(li2);
+
+        function hide(evt) {
+            //evt.target refers to the clicked <li> element
+            // This is different thant evt.currentTarget, which would refer to the parent <ul> in this context
+                evt.target.style.visibility = 'hidden';
+        }
+
+        //attach the listener to the list
+        //It will fire when each <li> is clicked
+        ul.addEventListener('click', hide, false);    
+</script>
+</body>
+</html>

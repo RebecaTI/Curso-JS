@@ -1,0 +1,14 @@
+label {
+    font-size: 4em;
+    font-weight:500;
+}
+
+input {
+    font-size: 3em;
+    margin-left: 1em;
+}
+
+button {
+    font-size: 2em;
+    margin-top: 1em;
+}
