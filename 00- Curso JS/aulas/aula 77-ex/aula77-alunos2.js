@@ -42,7 +42,7 @@ ValidaCPF.prototype.isSequencia = function () {
     return sequencia === this.cpfLimpo;
 }
 
-const cpf = new ValidaCPF('111.111.111-11');
+const cpf = new ValidaCPF('179.22878830');
 
 if(cpf.valida()) {
     console.log('Cpf valido');
