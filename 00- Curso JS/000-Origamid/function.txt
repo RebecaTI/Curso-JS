@@ -1,0 +1,21 @@
+Em uma function existem os parametros e argumentos
+
+function numero(num1, num2){
+  //codigo
+}
+numero(1, 2);
+
+function exemplo(parametro){
+  //codigo
+}
+exemplo(argumento);
+
+PARÂMETROS
+*São definidos na declaração (ou assinatura) da função/método;
+*Os parâmetros de uma função recebem os argumentos;
+*O nome de cada parâmetro serve como uma variável local dentro da função;
+*Uma boa mnemónica é pensar que um Parâmetro é como um Placeholder para um Potencial valor.
+ARGUMENTOS
+*Representam os valores/variáveis atuais passadas para os parâmetros da função, quando é invocada;
+*Cada argumento corresponde a um parâmetro (na mesma posição);
+*Uma boa mnemónica é pensar que um Argumento é o valor Atual.
