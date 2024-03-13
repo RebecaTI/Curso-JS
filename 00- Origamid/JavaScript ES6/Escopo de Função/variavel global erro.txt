@@ -10,3 +10,4 @@ mostrarCarro();
 console.log(carro);
 
 'use strict' impede isso.
+Isso impede que erros bobos aconteçam
